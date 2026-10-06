@@ -1,0 +1,105 @@
+
+============================================================================
+KATEGORI MODELI v5 (384 px) - 2026-09-28 19:55
+============================================================================
+Altin gunler: onay 6410  duzeltme 998
+Inceleme yeni_duzeltmeler        : 1604
+Inceleme cift_inceleme_hatalar   : 629
+Siniflar (17):
+      4188  duzensiz cizik
+      1138  bulutlu
+      3824  baski kaymasi
+      4983  A sinifi
+      1671  ayirma cizik
+       235  baski plakasi
+       954  vakum kalemi
+       524  temas kirl.
+      1590  kirik grid
+      2813  hava akisi
+       274  rulo izi
+      1711  kirlenme
+      1063  grafit tekne
+      1159  tekne cercevesi
+       918  gizli catlak
+      9818  siyah nokta
+      4825  siyah kenar
+Egitim 38438   Dogrulama (9.21) 3250
+    anlasan      13371
+    2B           8548
+    dogrulanmis  7088
+    altin_onay   6398
+    inceleme     1807
+    altin_duzeltme 979
+    op_ozel      247
+
+Dogrulama (9.21), kategori bazinda isabet/yakalama:
+  kat5 (su an)         genel %90.4 | siyah nok  84/91 | siyah ken  85/89 | duzensiz   86/78 | baski kay  99/99 | hava akis  91/96 | kirik gri  97/85 | kirlenme  94/98 |
+Baslangic: model_kat5 govdesi, yeni siniflandirma basi
+
+============================================================================
+EGITIM (3 tur, 384 px)
+============================================================================
+
+  --- TUR 1  (91 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %80.6
+  >>> EN IYI (dogrulamaya gore)
+  kat6 tur 1           genel %89.4 | siyah nok  87/87 | siyah ken  84/89 | duzensiz   78/85 | baski kay  96/100| hava akis  89/96 | kirik gri  99/78 | kirlenme  90/99 |
+
+  --- TUR 2  (92 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %86.9
+  >>> EN IYI (dogrulamaya gore)
+  kat6 tur 2           genel %90.4 | siyah nok  87/92 | siyah ken  83/92 | duzensiz   82/81 | baski kay  99/98 | hava akis  92/95 | kirik gri  98/85 | kirlenme  95/99 |
+
+============================================================================
+KATEGORI MODELI v5 (384 px) - 2026-09-29 01:06
+============================================================================
+Altin gunler: onay 6410  duzeltme 998
+Inceleme yeni_duzeltmeler        : 1604
+Inceleme cift_inceleme_hatalar   : 629
+Siniflar (17):
+      4188  duzensiz cizik
+      1138  bulutlu
+      3824  baski kaymasi
+      4983  A sinifi
+      1671  ayirma cizik
+       235  baski plakasi
+       954  vakum kalemi
+       524  temas kirl.
+      1590  kirik grid
+      2813  hava akisi
+       274  rulo izi
+      1711  kirlenme
+      1063  grafit tekne
+      1159  tekne cercevesi
+       918  gizli catlak
+      9818  siyah nokta
+      4825  siyah kenar
+Egitim 38438   Dogrulama (9.21) 3250
+    anlasan      13371
+    2B           8548
+    dogrulanmis  7088
+    altin_onay   6398
+    inceleme     1807
+    altin_duzeltme 979
+    op_ozel      247
+
+Dogrulama (9.21), kategori bazinda isabet/yakalama:
+  kat5 (su an)         genel %90.4 | siyah nok  84/91 | siyah ken  85/89 | duzensiz   86/78 | baski kay  99/99 | hava akis  91/96 | kirik gri  97/85 | kirlenme  94/98 |
+Baslangic: model_kat5 govdesi, yeni siniflandirma basi
+Kaldigi yerden devam: 2. tur
+
+============================================================================
+EGITIM (3 tur, 384 px)
+============================================================================
+
+  --- TUR 3  (91 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %86.0
+  kat6 tur 3           genel %90.5 | siyah nok  89/89 | siyah ken  82/94 | duzensiz   81/83 | baski kay  97/99 | hava akis  93/95 | kirik gri  98/85 | kirlenme  94/98 |
+
+============================================================================
+BITTI - en iyi dogrulama %86.9
+Model: model_kat6/en_iyi_model.pt
+============================================================================

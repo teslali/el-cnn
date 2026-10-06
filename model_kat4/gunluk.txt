@@ -1,0 +1,70 @@
+
+==========================================================================
+KATEGORI MODELI v4 (384 px) - 2026-09-25 09:01
+==========================================================================
+Siniflar (17):
+      3308  duzensiz cizik
+      1080  bulutlu
+      3046  baski kaymasi
+      4162  A sinifi
+      1425  ayirma cizik
+       601  nokta baskisi
+       199  baski plakasi
+       888  vakum kalemi
+       461  temas kirl.
+      1239  kirik grid
+      2212  hava akisi
+      1525  kirlenme
+      1002  grafit tekne
+       995  tekne cercevesi
+       791  gizli catlak
+      6444  siyah nokta
+      3778  siyah kenar
+  <150 ornek, disarida: rulo izi 1, vakum emici 28, koyu hucre 1, konveyor 34
+Egitim 30032   Dogrulama (9.21) 3124
+    anlasan      12635
+    2B           9103
+    dogrulanmis  7092
+    inceleme     1191
+    op_plaka     11
+Sinav: altin kumede 1726 B hucresi (adil karsilastirma icin sadece iki modelde de olan siniflar)
+  mevcut model3 (224 px) sinavda:
+  model3 (mevcut)        dogruluk %87.6 | cizik isabet %50 yakalama %92 | kirik grid yak. %20 | siyah kenar yak. %68
+Baslangic: model3 govdesi, yeni siniflandirma basi
+
+==========================================================================
+EGITIM (4 tur, 384 px)
+==========================================================================
+
+  --- TUR 1  (77 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %78.8
+  >>> EN IYI (dogrulamaya gore)
+  sinav (altin kume):
+  yeni model tur 1       dogruluk %82.3 | cizik isabet %82 yakalama %73 | kirik grid yak. %28 | siyah kenar yak. %82
+
+  --- TUR 2  (77 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %86.1
+  >>> EN IYI (dogrulamaya gore)
+  sinav (altin kume):
+  yeni model tur 2       dogruluk %79.4 | cizik isabet %70 yakalama %83 | kirik grid yak. %48 | siyah kenar yak. %66
+
+  --- TUR 3  (78 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %88.3
+  >>> EN IYI (dogrulamaya gore)
+  sinav (altin kume):
+  yeni model tur 3       dogruluk %85.9 | cizik isabet %88 yakalama %77 | kirik grid yak. %56 | siyah kenar yak. %74
+
+  --- TUR 4  (80 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %88.3
+  >>> EN IYI (dogrulamaya gore)
+  sinav (altin kume):
+  yeni model tur 4       dogruluk %86.1 | cizik isabet %82 yakalama %83 | kirik grid yak. %48 | siyah kenar yak. %78
+
+==========================================================================
+BITTI - en iyi dogrulama %88.3
+Model: model_kat4/en_iyi_model.pt
+==========================================================================

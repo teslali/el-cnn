@@ -1,0 +1,207 @@
+
+============================================================================
+A/B MODELI v3 - A vs HEPSI - 2026-09-14 22:26
+============================================================================
+Toplam gorsel : 43050
+A sinifi      : 4200
+B/C sinifi    : 38850
+C sinifi      : 271  (ekstra agirlik x3.0)
+
+Gun bazli bolme:
+  egitim    :  20302  (A 2747, B/C 17555, C 142)
+  dogrulama :   9827  (A 540, B/C 9287, C 31)
+  test      :  12921  (A 913, B/C 12008, C 98)
+
+Sinif agirliklari : A 3.70, B/C 0.58
+C sinifi ornekleri ayrica x3.0 agirlikli
+
+============================================================================
+EGITIM (12 tur)
+============================================================================
+
+
+
+  --- TUR 1/12  (57 dk) ---
+  kayip 0.4040   lr 1.50e-04
+  DOGRULAMA: AUC 0.9450  A: P 0.311 R 0.831  n 540
+  >>> EN IYI
+    TEST AUC: 0.9012
+
+    SIRA BAZLI KESIM (12921 gorsel, 913 gercek A, 98 C sinifi)
+      ilk %      N  A_bulundu  precision  A_kapsama   C_SIZAN
+    ------------------------------------------------------------
+         5%    646        340      0.526      0.372         4
+        10%   1292        469      0.363      0.514        19
+        15%   1938        599      0.309      0.656        33
+        18%   2325        675      0.290      0.739        37
+        22%   2842        746      0.262      0.817        38
+        26%   3359        793      0.236      0.869        45
+        30%   3876        829      0.214      0.908        50
+
+    C SINIFI SIZINTISI (en kritik risk)
+      ilk %18: 37 C sinifi sizdi
+           30x  压板Baski plakasi izi
+            7x  隐裂Gizli catlak
+      ilk %26: 45 C sinifi sizdi
+           36x  压板Baski plakasi izi
+            9x  隐裂Gizli catlak
+
+    ESKI KAPSAM KARSILASTIRMASI
+      siyah nokta+kenar: 8205 gorsel (0 A)
+      Yeni model bu alt kumede de calisiyor; ayrica
+      diger 4716 gorseli de tariyor.
+
+
+  --- TUR 2/12  (59 dk) ---
+  kayip 0.3086   lr 1.47e-04
+  DOGRULAMA: AUC 0.9622  A: P 0.353 R 0.865  n 540
+  >>> EN IYI
+    TEST AUC: 0.9268
+
+    SIRA BAZLI KESIM (12921 gorsel, 913 gercek A, 98 C sinifi)
+      ilk %      N  A_bulundu  precision  A_kapsama   C_SIZAN
+    ------------------------------------------------------------
+         5%    646        357      0.553      0.391         3
+        10%   1292        581      0.450      0.636        15
+        15%   1938        704      0.363      0.771        22
+        18%   2325        759      0.326      0.831        26
+        22%   2842        807      0.284      0.884        34
+        26%   3359        836      0.249      0.916        38
+        30%   3876        858      0.221      0.940        39
+
+    C SINIFI SIZINTISI (en kritik risk)
+      ilk %18: 26 C sinifi sizdi
+           22x  压板Baski plakasi izi
+            4x  隐裂Gizli catlak
+      ilk %26: 38 C sinifi sizdi
+           32x  压板Baski plakasi izi
+            6x  隐裂Gizli catlak
+
+    ESKI KAPSAM KARSILASTIRMASI
+      siyah nokta+kenar: 8205 gorsel (0 A)
+      Yeni model bu alt kumede de calisiyor; ayrica
+      diger 4716 gorseli de tariyor.
+
+
+  --- TUR 3/12  (58 dk) ---
+  kayip 0.2857   lr 1.38e-04
+  DOGRULAMA: AUC 0.9608  A: P 0.296 R 0.943  n 540
+  (en iyi hala 0.9622)
+
+
+  --- TUR 4/12  (57 dk) ---
+  kayip 0.2797   lr 1.24e-04
+  DOGRULAMA: AUC 0.9628  A: P 0.371 R 0.880  n 540
+  >>> EN IYI
+    TEST AUC: 0.9422
+
+    SIRA BAZLI KESIM (12921 gorsel, 913 gercek A, 98 C sinifi)
+      ilk %      N  A_bulundu  precision  A_kapsama   C_SIZAN
+    ------------------------------------------------------------
+         5%    646        394      0.610      0.432         9
+        10%   1292        623      0.482      0.682        18
+        15%   1938        748      0.386      0.819        21
+        18%   2325        798      0.343      0.874        21
+        22%   2842        841      0.296      0.921        28
+        26%   3359        862      0.257      0.944        34
+        30%   3876        876      0.226      0.959        40
+
+    C SINIFI SIZINTISI (en kritik risk)
+      ilk %18: 21 C sinifi sizdi
+           19x  压板Baski plakasi izi
+            2x  隐裂Gizli catlak
+      ilk %26: 34 C sinifi sizdi
+           31x  压板Baski plakasi izi
+            3x  隐裂Gizli catlak
+
+    ESKI KAPSAM KARSILASTIRMASI
+      siyah nokta+kenar: 8205 gorsel (0 A)
+      Yeni model bu alt kumede de calisiyor; ayrica
+      diger 4716 gorseli de tariyor.
+
+
+  --- TUR 5/12  (58 dk) ---
+  kayip 0.2659   lr 1.06e-04
+  DOGRULAMA: AUC 0.9627  A: P 0.308 R 0.915  n 540
+  (en iyi hala 0.9628)
+
+
+  --- TUR 6/12  (57 dk) ---
+  kayip 0.2588   lr 8.57e-05
+  DOGRULAMA: AUC 0.9622  A: P 0.348 R 0.889  n 540
+  (en iyi hala 0.9628)
+
+
+  --- TUR 7/12  (55 dk) ---
+  kayip 0.2436   lr 6.43e-05
+  DOGRULAMA: AUC 0.9624  A: P 0.316 R 0.931  n 540
+  (en iyi hala 0.9628)
+
+
+  --- TUR 8/12  (55 dk) ---
+  kayip 0.2356   lr 4.38e-05
+  DOGRULAMA: AUC 0.9653  A: P 0.439 R 0.793  n 540
+  >>> EN IYI
+    TEST AUC: 0.9331
+
+    SIRA BAZLI KESIM (12921 gorsel, 913 gercek A, 98 C sinifi)
+      ilk %      N  A_bulundu  precision  A_kapsama   C_SIZAN
+    ------------------------------------------------------------
+         5%    646        404      0.625      0.442         1
+        10%   1292        604      0.467      0.662        11
+        15%   1938        754      0.389      0.826        17
+        18%   2325        792      0.341      0.867        23
+        22%   2842        832      0.293      0.911        32
+        26%   3359        852      0.254      0.933        37
+        30%   3876        861      0.222      0.943        40
+
+    C SINIFI SIZINTISI (en kritik risk)
+      ilk %18: 23 C sinifi sizdi
+           20x  压板Baski plakasi izi
+            3x  隐裂Gizli catlak
+      ilk %26: 37 C sinifi sizdi
+           33x  压板Baski plakasi izi
+            4x  隐裂Gizli catlak
+
+    ESKI KAPSAM KARSILASTIRMASI
+      siyah nokta+kenar: 8205 gorsel (0 A)
+      Yeni model bu alt kumede de calisiyor; ayrica
+      diger 4716 gorseli de tariyor.
+
+
+  --- TUR 9/12  (55 dk) ---
+  kayip 0.2239   lr 2.59e-05
+  DOGRULAMA: AUC 0.9642  A: P 0.438 R 0.815  n 540
+  (en iyi hala 0.9653)
+
+
+  --- TUR 10/12  (54 dk) ---
+  kayip 0.2071   lr 1.19e-05
+  DOGRULAMA: AUC 0.9620  A: P 0.428 R 0.809  n 540
+  (en iyi hala 0.9653)
+
+
+  --- TUR 11/12  (54 dk) ---
+  kayip 0.2001   lr 3.04e-06
+  DOGRULAMA: AUC 0.9599  A: P 0.482 R 0.757  n 540
+  (en iyi hala 0.9653)
+
+
+  --- TUR 12/12  (54 dk) ---
+  kayip 0.1934   lr 0.00e+00
+  DOGRULAMA: AUC 0.9608  A: P 0.477 R 0.765  n 540
+  (en iyi hala 0.9653)
+
+============================================================================
+BITTI - en iyi dogrulama AUC 0.9653
+============================================================================
+Model     : model_ab3/en_iyi_model.pt
+Tahminler : model_ab3/test_tahmin.csv
+
+Karsilastirma:
+  model_ab2 (sadece siyah nokta+kenar) test AUC: 0.9241
+
+DIKKAT: Bu iki AUC dogrudan kiyaslanamaz - farkli test kumeleri.
+Onemli olan C_SIZAN sutunu ve sira bazli precision.
+
+Sizinti varsa gunluk scriptte model3 vetosu sart.

@@ -1,0 +1,60 @@
+
+============================================================================
+C DEDEKTORU (512 px) - 2026-09-23 09:45
+============================================================================
+Duzeltme listesinden : 7002
+Egitim   : 250 C  +  6000 negatif
+               187  隐裂Gizli catlak
+                63  压板Baski plakasi izi
+Dogrulama: 31 C  +  1500 negatif
+
+Sinav kumesi hazirlaniyor (model_ab4, 224 px)...
+  A adaylari: 2416  |  test C: 98  |  adaylara sizan C: 28 (baski plakasi 26)
+Baslangic: model_ab4 govdesi, yeni C basi
+
+============================================================================
+EGITIM (6 tur, 512 px, batch 8)
+============================================================================
+
+
+  --- TUR 1/6  (80 dk) ---
+  kayip 0.2732   DOGRULAMA AUC 0.9871  (C 31 / negatif 1500)
+  >>> EN IYI - sinav olcuyor
+
+    Test C yakalama ve A adaylarindaki sizinti:
+      esik   C yakalandi  sizan kalan  (plaka)   bosa A  isaretli B
+    --------------------------------------------------------------
+      0.05     98/98                0        0      820        1565
+      0.10     96/98                0        0      742        1354
+      0.20     90/98                4        3       22          49
+      0.30     88/98                5        4        4           9
+      0.50     75/98               13       12        0           5
+      0.70     64/98               16       15        0           2
+    sizan kalan : vetodan sonra A'ya gecen C (simdi 28, hedef 0)
+    bosa A      : yanlislikla veto edilen gercek A (bedel)
+
+  --- TUR 2/6  (81 dk) ---
+  kayip 0.1839   DOGRULAMA AUC 0.9514  (C 31 / negatif 1500)
+  (en iyi hala 0.9871)
+
+  --- TUR 3/6  (82 dk) ---
+  kayip 0.1547   DOGRULAMA AUC 0.9166  (C 31 / negatif 1500)
+  (en iyi hala 0.9871)
+
+  --- TUR 4/6  (80 dk) ---
+  kayip 0.1355   DOGRULAMA AUC 0.9016  (C 31 / negatif 1500)
+  (en iyi hala 0.9871)
+
+  --- TUR 5/6  (81 dk) ---
+  kayip 0.1297   DOGRULAMA AUC 0.8990  (C 31 / negatif 1500)
+  (en iyi hala 0.9871)
+
+  --- TUR 6/6  (85 dk) ---
+  kayip 0.1263   DOGRULAMA AUC 0.9060  (C 31 / negatif 1500)
+  (en iyi hala 0.9871)
+
+============================================================================
+BITTI - en iyi dogrulama AUC 0.9871
+Model: model_c/en_iyi_model.pt
+Sonraki adim: sinav tablosuna gore esik secip gunluk.py'ye eklemek.
+============================================================================

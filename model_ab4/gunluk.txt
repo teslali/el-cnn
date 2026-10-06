@@ -1,0 +1,94 @@
+
+============================================================================
+A/B MODELI v4 - DUZELTMELERLE - 2026-09-22 15:12
+============================================================================
+Baslangic : model_ab3 (devam)
+Tur / LR  : 5 / govde 5e-05, bas 0.0005
+
+Veri:
+  2B              : 43050
+  duzeltme  (x3)  : 613  (A: 49)
+  dogrulanmis(x1) : 6389  (A: 1164)
+  atlandi (test/dogrulama gunu): 95
+
+Bolme (test ab3 ile ayni):
+  egitim    :  27304  (A 3960, B/C 23344, C 250)
+  dogrulama :   9827  (A 540, B/C 9287, C 31)
+  test      :  12921  (A 913, B/C 12008, C 98)
+
+Sinif agirliklari: A 3.45, B/C 0.58  (+duzeltme x3, +C x3)
+model_ab3 agirliklari yuklendi (tur 8, dogrulama AUC 0.9653)
+
+Baslangic (model_ab3) test AUC: 0.9331
+
+============================================================================
+EGITIM (5 tur)
+============================================================================
+
+
+
+  --- TUR 1/5  (78 dk) ---
+  kayip 0.2729   DOGRULAMA AUC 0.9630
+  >>> EN IYI
+    TEST AUC: 0.9296   (model_ab3: 0.9600)
+
+      ilk %      N  A_bulundu  precision  A_kapsama   C_SIZAN
+    ------------------------------------------------------------
+       5.0%    646        393      0.608      0.430         1
+      10.0%   1292        609      0.471      0.667        12
+      15.0%   1938        740      0.382      0.811        18
+      18.7%   2416        785      0.325      0.860        26
+      22.0%   2842        816      0.287      0.894        31
+      26.0%   3359        844      0.251      0.924        36
+      30.0%   3876        853      0.220      0.934        42
+
+
+  --- TUR 2/5  (71 dk) ---
+  kayip 0.2600   DOGRULAMA AUC 0.9623
+  (en iyi hala 0.9630)
+
+
+  --- TUR 3/5  (72 dk) ---
+  kayip 0.2505   DOGRULAMA AUC 0.9636
+  >>> EN IYI
+    TEST AUC: 0.9347   (model_ab3: 0.9600)
+
+      ilk %      N  A_bulundu  precision  A_kapsama   C_SIZAN
+    ------------------------------------------------------------
+       5.0%    646        396      0.613      0.434         1
+      10.0%   1292        636      0.492      0.697        12
+      15.0%   1938        763      0.394      0.836        19
+      18.7%   2416        813      0.337      0.890        26
+      22.0%   2842        832      0.293      0.911        28
+      26.0%   3359        851      0.253      0.932        34
+      30.0%   3876        860      0.222      0.942        40
+
+
+  --- TUR 4/5  (99 dk) ---
+  kayip 0.2342   DOGRULAMA AUC 0.9656
+  >>> EN IYI
+    TEST AUC: 0.9383   (model_ab3: 0.9600)
+
+      ilk %      N  A_bulundu  precision  A_kapsama   C_SIZAN
+    ------------------------------------------------------------
+       5.0%    646        399      0.618      0.437         0
+      10.0%   1292        633      0.490      0.693        13
+      15.0%   1938        768      0.396      0.841        19
+      18.7%   2416        820      0.339      0.898        28
+      22.0%   2842        847      0.298      0.928        31
+      26.0%   3359        860      0.256      0.942        37
+      30.0%   3876        873      0.225      0.956        41
+
+
+  --- TUR 5/5  (72 dk) ---
+  kayip 0.2275   DOGRULAMA AUC 0.9635
+  (en iyi hala 0.9656)
+
+============================================================================
+BITTI - en iyi dogrulama AUC 0.9656
+============================================================================
+Model: model_ab4/en_iyi_model.pt
+
+Karsilastirma icin model_ab3: dogrulama 0.9653, test 0.9600
+Kullanmak icin gunluk.py icinde AB_MODEL satirini model_ab4 yapin.
+ASIL OLCUM: yeni bir gunun verisinde gunluk.py + goz kontrolu.

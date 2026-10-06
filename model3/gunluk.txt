@@ -1,0 +1,269 @@
+
+==========================================================================
+INCE AYAR v3 - 2026-09-12 12:23
+==========================================================================
+Toplam gorsel : 42884
+Kategori      : 16  (>= 150 ornek)
+
+GUN BAZLI BOLME (sizinti yok):
+  egitim    : ['20260904', '20260905', '20260906', '20260907', '20260908']  -> 20220 gorsel
+  dogrulama : ['20260909']  -> 9818 gorsel
+  test      : ['20260910', '20260911']  -> 12846 gorsel
+
+Atlanan kategoriler (< 150 ornek):
+    107  压板Baski plakasi izi
+     35  皮带Konveyor bant izi
+     23  吸盘Vakum emici izi
+      1  暗片Proses kaynakli koyu hücre
+
+Kategoriler:
+  吸笔Vakum kalemi izi               egitim    351  dog    43  test   113
+  接触 Temas kaynakli kirlenme       egitim    108  dog    34  test    83
+  断栅EL kirnk grid                  egitim    150  dog   364  test   191
+  偏移Baski kaymasi                  egitim    333  dog   710  test   868
+  黑斑Siyah leke + siyah nokta       egitim   9427  dog  5839  test  5922
+  卡点Nokta Baskisi                  egitim    398  dog    50  test   107
+  黑边Siyah kenar + siyah kose       egitim   2556  dog   841  test  2283
+  舟框印Tekne cercevesi izi           egitim    364  dog     4  test    92
+  气流Hava akisi izi                 egitim    866  dog   336  test   559
+  脏污Kirlenme                       egitim    320  dog    79  test   182
+  云雾Bulutlu hücre                 egitim    182  dog   303  test   116
+  不规则 Düzensiz cizik              egitim   1760  dog   469  test  1014
+  舟划Grafit tekne cizgi             egitim    310  dog    89  test   162
+  分片Ayirma kaynakli cizik          egitim    259  dog    89  test   194
+  隐裂Gizli catlak                   egitim     89  dog    28  test    47
+  z其他Diger                         egitim   2747  dog   540  test   913
+
+==========================================================================
+EGITIM BASLIYOR
+==========================================================================
+En iyi tur AYRI BIR GUNUN verisiyle secilir (test'e bakilmaz).
+Kesilirse ayni komutla devam eder.
+
+
+
+  --- TUR 1/10  (58 dk) ---
+  egitim kaybi : 1.4079   lr 1.50e-04
+  DOGRULAMA: dogruluk %77.2  makro-P 0.609  makro-F1 0.479
+  >>> EN IYI (dogrulama F1 0.479)
+    TEST: dogruluk %72.9  makro-P 0.696  makro-F1 0.487
+     接触 Temas kaynakli kirlenme     P 1.00  R 0.02  n 83  <--
+     隐裂Gizli catlak                 P 1.00  R 0.02  n 47  <--
+     云雾Bulutlu hücre               P 0.94  R 0.29  n 116  <--
+     舟框印Tekne cercevesi izi         P 0.88  R 0.71  n 92
+     偏移Baski kaymasi                P 0.87  R 0.74  n 868
+     黑边Siyah kenar + siyah kose     P 0.82  R 0.44  n 2283
+     分片Ayirma kaynakli cizik        P 0.76  R 0.88  n 194
+     黑斑Siyah leke + siyah nokta     P 0.76  R 0.97  n 5922
+     断栅EL kirnk grid                P 0.75  R 0.05  n 191
+     气流Hava akisi izi               P 0.70  R 0.44  n 559
+     不规则 Düzensiz cizik            P 0.70  R 0.68  n 1014
+     脏污Kirlenme                     P 0.69  R 0.69  n 182
+     z其他Diger                       P 0.47  R 0.52  n 913
+     舟划Grafit tekne cizgi           P 0.42  R 0.40  n 162
+     吸笔Vakum kalemi izi             P 0.35  R 0.90  n 113
+     卡点Nokta Baskisi                P 0.03  R 0.01  n 107
+
+
+  --- TUR 2/10  (55 dk) ---
+  egitim kaybi : 1.0857   lr 1.45e-04
+  DOGRULAMA: dogruluk %80.9  makro-P 0.651  makro-F1 0.532
+  >>> EN IYI (dogrulama F1 0.532)
+    TEST: dogruluk %72.2  makro-P 0.667  makro-F1 0.509
+     舟框印Tekne cercevesi izi         P 0.93  R 0.67  n 92  <--
+     断栅EL kirnk grid                P 0.90  R 0.05  n 191  <--
+     黑边Siyah kenar + siyah kose     P 0.89  R 0.40  n 2283
+     脏污Kirlenme                     P 0.84  R 0.74  n 182
+     气流Hava akisi izi               P 0.84  R 0.37  n 559
+     接触 Temas kaynakli kirlenme     P 0.80  R 0.10  n 83
+     分片Ayirma kaynakli cizik        P 0.77  R 0.95  n 194
+     z其他Diger                       P 0.72  R 0.36  n 913
+     黑斑Siyah leke + siyah nokta     P 0.72  R 0.99  n 5922
+     偏移Baski kaymasi                P 0.66  R 0.69  n 868
+     不规则 Düzensiz cizik            P 0.65  R 0.76  n 1014
+     云雾Bulutlu hücre               P 0.61  R 0.55  n 116
+     吸笔Vakum kalemi izi             P 0.57  R 0.67  n 113
+     舟划Grafit tekne cizgi           P 0.50  R 0.40  n 162
+     卡点Nokta Baskisi                P 0.28  R 0.05  n 107
+     隐裂Gizli catlak                 P 0.00  R 0.00  n 47
+
+
+  --- TUR 3/10  (56 dk) ---
+  egitim kaybi : 1.0057   lr 1.32e-04
+  DOGRULAMA: dogruluk %79.9  makro-P 0.656  makro-F1 0.553
+  >>> EN IYI (dogrulama F1 0.553)
+    TEST: dogruluk %72.5  makro-P 0.669  makro-F1 0.540
+     隐裂Gizli catlak                 P 1.00  R 0.13  n 47  <--
+     气流Hava akisi izi               P 0.85  R 0.50  n 559
+     舟框印Tekne cercevesi izi         P 0.83  R 0.86  n 92
+     黑边Siyah kenar + siyah kose     P 0.82  R 0.55  n 2283
+     黑斑Siyah leke + siyah nokta     P 0.82  R 0.88  n 5922
+     云雾Bulutlu hücre               P 0.80  R 0.41  n 116
+     断栅EL kirnk grid                P 0.78  R 0.07  n 191
+     分片Ayirma kaynakli cizik        P 0.76  R 0.93  n 194
+     z其他Diger                       P 0.74  R 0.33  n 913
+     吸笔Vakum kalemi izi             P 0.73  R 0.54  n 113
+     脏污Kirlenme                     P 0.69  R 0.77  n 182
+     偏移Baski kaymasi                P 0.62  R 0.81  n 868
+     舟划Grafit tekne cizgi           P 0.47  R 0.54  n 162
+     不规则 Düzensiz cizik            P 0.44  R 0.87  n 1014
+     接触 Temas kaynakli kirlenme     P 0.38  R 0.29  n 83
+     卡点Nokta Baskisi                P 0.00  R 0.00  n 107
+
+
+  --- TUR 4/10  (57 dk) ---
+  egitim kaybi : 0.9637   lr 1.12e-04
+  DOGRULAMA: dogruluk %83.2  makro-P 0.674  makro-F1 0.614
+  >>> EN IYI (dogrulama F1 0.614)
+    TEST: dogruluk %75.7  makro-P 0.672  makro-F1 0.578
+     舟框印Tekne cercevesi izi         P 0.91  R 0.76  n 92  <--
+     脏污Kirlenme                     P 0.90  R 0.57  n 182  <--
+     偏移Baski kaymasi                P 0.90  R 0.73  n 868
+     云雾Bulutlu hücre               P 0.81  R 0.49  n 116
+     黑边Siyah kenar + siyah kose     P 0.81  R 0.56  n 2283
+     隐裂Gizli catlak                 P 0.80  R 0.26  n 47
+     气流Hava akisi izi               P 0.80  R 0.60  n 559
+     黑斑Siyah leke + siyah nokta     P 0.77  R 0.97  n 5922
+     不规则 Düzensiz cizik            P 0.71  R 0.69  n 1014
+     分片Ayirma kaynakli cizik        P 0.67  R 0.96  n 194
+     断栅EL kirnk grid                P 0.67  R 0.09  n 191
+     z其他Diger                       P 0.63  R 0.37  n 913
+     吸笔Vakum kalemi izi             P 0.49  R 0.84  n 113
+     舟划Grafit tekne cizgi           P 0.47  R 0.52  n 162
+     接触 Temas kaynakli kirlenme     P 0.32  R 0.49  n 83
+     卡点Nokta Baskisi                P 0.08  R 0.07  n 107
+
+
+  --- TUR 5/10  (58 dk) ---
+  egitim kaybi : 0.9105   lr 8.80e-05
+  DOGRULAMA: dogruluk %83.6  makro-P 0.701  makro-F1 0.611
+  (en iyi dogrulama hala 0.614)
+
+
+  --- TUR 6/10  (58 dk) ---
+  egitim kaybi : 0.8670   lr 6.20e-05
+  DOGRULAMA: dogruluk %83.4  makro-P 0.712  makro-F1 0.636
+  >>> EN IYI (dogrulama F1 0.636)
+    TEST: dogruluk %77.5  makro-P 0.730  makro-F1 0.616
+     隐裂Gizli catlak                 P 1.00  R 0.15  n 47  <--
+     偏移Baski kaymasi                P 0.98  R 0.79  n 868  <--
+     舟框印Tekne cercevesi izi         P 0.94  R 0.80  n 92  <--
+     黑边Siyah kenar + siyah kose     P 0.86  R 0.53  n 2283
+     气流Hava akisi izi               P 0.84  R 0.52  n 559
+     分片Ayirma kaynakli cizik        P 0.84  R 0.95  n 194
+     云雾Bulutlu hücre               P 0.80  R 0.56  n 116
+     不规则 Düzensiz cizik            P 0.78  R 0.78  n 1014
+     脏污Kirlenme                     P 0.78  R 0.80  n 182
+     黑斑Siyah leke + siyah nokta     P 0.78  R 0.98  n 5922
+     接触 Temas kaynakli kirlenme     P 0.76  R 0.34  n 83
+     z其他Diger                       P 0.60  R 0.50  n 913
+     吸笔Vakum kalemi izi             P 0.55  R 0.79  n 113
+     舟划Grafit tekne cizgi           P 0.54  R 0.47  n 162
+     断栅EL kirnk grid                P 0.48  R 0.14  n 191
+     卡点Nokta Baskisi                P 0.16  R 0.27  n 107
+
+
+  --- TUR 7/10  (57 dk) ---
+  egitim kaybi : 0.8298   lr 3.75e-05
+  DOGRULAMA: dogruluk %84.9  makro-P 0.723  makro-F1 0.659
+  >>> EN IYI (dogrulama F1 0.659)
+    TEST: dogruluk %79.0  makro-P 0.749  makro-F1 0.656
+     偏移Baski kaymasi                P 0.93  R 0.81  n 868  <--
+     脏污Kirlenme                     P 0.90  R 0.74  n 182
+     舟框印Tekne cercevesi izi         P 0.88  R 0.85  n 92
+     黑边Siyah kenar + siyah kose     P 0.87  R 0.57  n 2283
+     云雾Bulutlu hücre               P 0.86  R 0.53  n 116
+     分片Ayirma kaynakli cizik        P 0.82  R 0.97  n 194
+     气流Hava akisi izi               P 0.81  R 0.69  n 559
+     黑斑Siyah leke + siyah nokta     P 0.78  R 0.98  n 5922
+     断栅EL kirnk grid                P 0.75  R 0.14  n 191
+     隐裂Gizli catlak                 P 0.75  R 0.38  n 47
+     不规则 Düzensiz cizik            P 0.73  R 0.84  n 1014
+     z其他Diger                       P 0.70  R 0.42  n 913
+     吸笔Vakum kalemi izi             P 0.61  R 0.74  n 113
+     接触 Temas kaynakli kirlenme     P 0.58  R 0.45  n 83
+     卡点Nokta Baskisi                P 0.52  R 0.31  n 107
+     舟划Grafit tekne cizgi           P 0.51  R 0.51  n 162
+
+
+  --- TUR 8/10  (57 dk) ---
+  egitim kaybi : 0.7937   lr 1.75e-05
+  DOGRULAMA: dogruluk %84.6  makro-P 0.712  makro-F1 0.660
+  >>> EN IYI (dogrulama F1 0.660)
+    TEST: dogruluk %78.8  makro-P 0.743  makro-F1 0.650
+     舟框印Tekne cercevesi izi         P 0.95  R 0.78  n 92  <--
+     隐裂Gizli catlak                 P 0.95  R 0.38  n 47  <--
+     偏移Baski kaymasi                P 0.93  R 0.80  n 868  <--
+     云雾Bulutlu hücre               P 0.87  R 0.52  n 116
+     气流Hava akisi izi               P 0.86  R 0.62  n 559
+     黑边Siyah kenar + siyah kose     P 0.84  R 0.60  n 2283
+     脏污Kirlenme                     P 0.82  R 0.80  n 182
+     不规则 Düzensiz cizik            P 0.79  R 0.80  n 1014
+     黑斑Siyah leke + siyah nokta     P 0.78  R 0.98  n 5922
+     分片Ayirma kaynakli cizik        P 0.76  R 0.96  n 194
+     z其他Diger                       P 0.71  R 0.37  n 913
+     断栅EL kirnk grid                P 0.68  R 0.17  n 191
+     接触 Temas kaynakli kirlenme     P 0.56  R 0.46  n 83
+     吸笔Vakum kalemi izi             P 0.55  R 0.77  n 113
+     舟划Grafit tekne cizgi           P 0.48  R 0.52  n 162
+     卡点Nokta Baskisi                P 0.35  R 0.31  n 107
+
+
+  --- TUR 9/10  (56 dk) ---
+  egitim kaybi : 0.7662   lr 4.52e-06
+  DOGRULAMA: dogruluk %84.8  makro-P 0.703  makro-F1 0.666
+  >>> EN IYI (dogrulama F1 0.666)
+    TEST: dogruluk %78.7  makro-P 0.736  makro-F1 0.666
+     偏移Baski kaymasi                P 0.95  R 0.83  n 868  <--
+     分片Ayirma kaynakli cizik        P 0.91  R 0.95  n 194  <--
+     舟框印Tekne cercevesi izi         P 0.88  R 0.86  n 92
+     黑边Siyah kenar + siyah kose     P 0.87  R 0.58  n 2283
+     气流Hava akisi izi               P 0.85  R 0.62  n 559
+     云雾Bulutlu hücre               P 0.84  R 0.59  n 116
+     脏污Kirlenme                     P 0.82  R 0.80  n 182
+     不规则 Düzensiz cizik            P 0.78  R 0.82  n 1014
+     黑斑Siyah leke + siyah nokta     P 0.77  R 0.98  n 5922
+     z其他Diger                       P 0.73  R 0.33  n 913
+     断栅EL kirnk grid                P 0.72  R 0.17  n 191
+     隐裂Gizli catlak                 P 0.70  R 0.55  n 47
+     吸笔Vakum kalemi izi             P 0.63  R 0.74  n 113
+     接触 Temas kaynakli kirlenme     P 0.54  R 0.53  n 83
+     舟划Grafit tekne cizgi           P 0.50  R 0.48  n 162
+     卡点Nokta Baskisi                P 0.30  R 0.38  n 107
+
+
+  --- TUR 10/10  (56 dk) ---
+  egitim kaybi : 0.7543   lr 0.00e+00
+  DOGRULAMA: dogruluk %85.0  makro-P 0.725  makro-F1 0.671
+  >>> EN IYI (dogrulama F1 0.671)
+    TEST: dogruluk %78.7  makro-P 0.737  makro-F1 0.658
+     偏移Baski kaymasi                P 0.96  R 0.81  n 868  <--
+     舟框印Tekne cercevesi izi         P 0.90  R 0.85  n 92
+     黑边Siyah kenar + siyah kose     P 0.86  R 0.58  n 2283
+     云雾Bulutlu hücre               P 0.86  R 0.57  n 116
+     脏污Kirlenme                     P 0.85  R 0.79  n 182
+     气流Hava akisi izi               P 0.83  R 0.60  n 559
+     分片Ayirma kaynakli cizik        P 0.81  R 0.96  n 194
+     隐裂Gizli catlak                 P 0.79  R 0.47  n 47
+     黑斑Siyah leke + siyah nokta     P 0.78  R 0.98  n 5922
+     不规则 Düzensiz cizik            P 0.76  R 0.83  n 1014
+     断栅EL kirnk grid                P 0.72  R 0.17  n 191
+     z其他Diger                       P 0.72  R 0.34  n 913
+     吸笔Vakum kalemi izi             P 0.62  R 0.73  n 113
+     接触 Temas kaynakli kirlenme     P 0.55  R 0.47  n 83
+     舟划Grafit tekne cizgi           P 0.53  R 0.48  n 162
+     卡点Nokta Baskisi                P 0.27  R 0.40  n 107
+
+==========================================================================
+BITTI
+==========================================================================
+En iyi dogrulama F1 : 0.671
+Model               : model3/en_iyi_model.pt
+Tahminler           : model3/tahminler.csv
+
+Onceki sonuclar (16.989 gorsel, 9 kategori):
+  dondurulmus oznitelik : test makro-F1 0.417
+  ince ayar v1          : test makro-F1 0.643   (esik: %74.0 otomatik)
+  ince ayar v2          : test makro-F1 0.645   (esik: %76.5 otomatik)
+
+Esik analizi: esik.py'de MODEL_DIZIN = Path('model3') yapin.

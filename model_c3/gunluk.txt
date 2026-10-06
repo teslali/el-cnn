@@ -1,0 +1,92 @@
+
+==============================================================================
+C DEDEKTORU v3 (512 px, kanal3_v1) - 2026-09-30 12:50
+==============================================================================
+Egitim  : C  1928  degil 11979
+Dogrulama (9.21): C 228  degil 1401
+    2B           C      271
+    altin        C      1103
+    altin        degil  2755
+    altin_zor    degil  145
+    anlasan      degil  6018
+    dogrulanmis  C      108
+    dogrulanmis  degil  1500
+    inceleme     C      246
+    inceleme     degil  1561
+    operator     C      200
+  C klasorunden cikardigin (zor ornek), gun bazinda: {'cikti_altin_924': 42, 'cikti_altin_923': 43, 'cikti_altin_925': 41, 'cikti_altin_926': 27}
+
+Sinav 9.27: 1539 gorsel, 95 gercek C (C-olmayanlar tam gune x7.5 olceklenir)
+    v2 (simdi) 0.05/0.15 | C  93/95  | tam gun C klasoru ~ 272  isabet ~% 34 | kacan A adayi 0
+
+Baslangic: model_c2/tur3.pt
+
+==============================================================================
+EGITIM (3 tur, 512 px)
+==============================================================================
+
+  --- TUR 1  (99 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9930
+  >>> EN IYI (dogrulamaya gore)
+  sinav 9.27:
+    v2 (simdi) 0.05/0.15 | C  93/95  | tam gun C klasoru ~ 272  isabet ~% 34 | kacan A adayi 0
+    v3 tur1    0.05/0.15 | C  92/95  | tam gun C klasoru ~ 360  isabet ~% 26 | kacan A adayi 1  !! A'ya sizma riski
+    v3 tur1    0.05/0.30 | C  87/95  | tam gun C klasoru ~ 288  isabet ~% 30 | kacan A adayi 1  !! A'ya sizma riski
+    v3 tur1    0.10/0.30 | C  86/95  | tam gun C klasoru ~ 197  isabet ~% 43 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur1    0.10/0.50 | C  82/95  | tam gun C klasoru ~ 164  isabet ~% 50 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur1    0.20/0.50 | C  82/95  | tam gun C klasoru ~ 149  isabet ~% 55 | kacan A adayi 2  !! A'ya sizma riski
+
+==============================================================================
+C DEDEKTORU v3 (512 px, kanal3_v1) - 2026-09-30 19:15
+==============================================================================
+Egitim  : C  1928  degil 11979
+Dogrulama (9.21): C 228  degil 1401
+    2B           C      271
+    altin        C      1103
+    altin        degil  2755
+    altin_zor    degil  145
+    anlasan      degil  6018
+    dogrulanmis  C      108
+    dogrulanmis  degil  1500
+    inceleme     C      246
+    inceleme     degil  1561
+    operator     C      200
+  C klasorunden cikardigin (zor ornek), gun bazinda: {'cikti_altin_924': 42, 'cikti_altin_923': 43, 'cikti_altin_925': 41, 'cikti_altin_926': 27}
+
+Sinav 9.27: 1539 gorsel, 95 gercek C (C-olmayanlar tam gune x7.5 olceklenir)
+    v2 (simdi) 0.05/0.15 | C  93/95  | tam gun C klasoru ~ 272  isabet ~% 34 | kacan A adayi 0
+
+Baslangic: model_c2/tur3.pt
+Kaldigi yerden devam: 1. tur
+
+==============================================================================
+EGITIM (3 tur, 512 px)
+==============================================================================
+
+  --- TUR 2  (101 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9922
+  sinav 9.27:
+    v2 (simdi) 0.05/0.15 | C  93/95  | tam gun C klasoru ~ 272  isabet ~% 34 | kacan A adayi 0
+    v3 tur2    0.05/0.15 | C  91/95  | tam gun C klasoru ~ 299  isabet ~% 30 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur2    0.05/0.30 | C  88/95  | tam gun C klasoru ~ 214  isabet ~% 41 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur2    0.10/0.30 | C  88/95  | tam gun C klasoru ~ 162  isabet ~% 54 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur2    0.10/0.50 | C  78/95  | tam gun C klasoru ~ 137  isabet ~% 57 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur2    0.20/0.50 | C  78/95  | tam gun C klasoru ~ 137  isabet ~% 57 | kacan A adayi 2  !! A'ya sizma riski
+
+  --- TUR 3  (98 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9922
+  sinav 9.27:
+    v2 (simdi) 0.05/0.15 | C  93/95  | tam gun C klasoru ~ 272  isabet ~% 34 | kacan A adayi 0
+    v3 tur3    0.05/0.15 | C  93/95  | tam gun C klasoru ~ 630  isabet ~% 15 | kacan A adayi 0
+    v3 tur3    0.05/0.30 | C  91/95  | tam gun C klasoru ~ 553  isabet ~% 16 | kacan A adayi 0
+    v3 tur3    0.10/0.30 | C  89/95  | tam gun C klasoru ~ 171  isabet ~% 52 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur3    0.10/0.50 | C  86/95  | tam gun C klasoru ~ 153  isabet ~% 56 | kacan A adayi 2  !! A'ya sizma riski
+    v3 tur3    0.20/0.50 | C  86/95  | tam gun C klasoru ~ 153  isabet ~% 56 | kacan A adayi 2  !! A'ya sizma riski
+
+==============================================================================
+BITTI - en iyi dogrulama AUC 0.9930
+Her tur: model_c3/tur1.pt ... tur3.pt
+==============================================================================

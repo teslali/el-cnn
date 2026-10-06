@@ -1,0 +1,22 @@
+# Beyaz liste: once her seyi disarida birak...
+*
+
+# ...sonra sadece kod, belgeler ve egitim gunlukleri.
+# (Gorseller, model dosyalari (.pt), CSV'ler ve venv hicbir zaman eklenmez.)
+!.gitignore
+!/*.py
+!/*.sh
+!/README.md
+!/PROJE_DEVIR.md
+!/requirements.txt
+
+# eski scriptler
+!/arsiv/
+/arsiv/*
+!/arsiv/*.py
+
+# her model klasorunden sadece egitim gunlugu ve kucuk ozet dosyalari (.pt degil)
+!/model*/
+/model*/*
+!/model*/*.txt
+!/model*/*.json

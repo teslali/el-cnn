@@ -1,0 +1,78 @@
+
+==========================================================================
+A/B MODELI 384 px - 2026-09-26 09:34
+==========================================================================
+Egitim  : A  4007  B 10622
+Dogrulama (9.21): A 1164  B 1692
+    anlasan      A  2592
+    anlasan      B  7162
+    dogrulanmis  A  1213
+    dogrulanmis  B  2000
+    inceleme     A  202
+    inceleme     B  1460
+
+Sinav: 9.22 (2080 gorsel, 322 A), 9.24 (2100 gorsel, 70 A)
+  (her esikte: secilen A sayisi, isabet, gercek A'larin yakalanma orani)
+  9.22
+    ab4 (224)    AUC 0.974 | 0.4:  277 sec % 84 isb % 73 yak | 0.5:  210 sec % 83 isb % 54 yak | 0.7:  120 sec % 78 isb % 29 yak |
+  9.24
+    ab4 (224)    AUC 0.959 | 0.4:  147 sec % 32 isb % 67 yak | 0.5:  129 sec % 35 isb % 64 yak | 0.7:   94 sec % 39 isb % 53 yak |
+
+Baslangic: model_kat5 govdesi (384 px, cizikleri taniyor), yeni A/B basi
+
+==========================================================================
+EGITIM (4 tur, 384 px)
+==========================================================================
+
+  --- TUR 1  (97 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9620
+  >>> EN IYI (dogrulamaya gore)
+  sinav:
+  9.22
+    ab4 (224)    AUC 0.974 | 0.4:  277 sec % 84 isb % 73 yak | 0.5:  210 sec % 83 isb % 54 yak | 0.7:  120 sec % 78 isb % 29 yak |
+    ab384 tur1   AUC 0.952 | 0.4:  486 sec % 59 isb % 89 yak | 0.5:  401 sec % 67 isb % 84 yak | 0.7:  189 sec % 76 isb % 45 yak |
+  9.24
+    ab4 (224)    AUC 0.959 | 0.4:  147 sec % 32 isb % 67 yak | 0.5:  129 sec % 35 isb % 64 yak | 0.7:   94 sec % 39 isb % 53 yak |
+    ab384 tur1   AUC 0.955 | 0.4:  248 sec % 24 isb % 86 yak | 0.5:  197 sec % 27 isb % 77 yak | 0.7:  103 sec % 37 isb % 54 yak |
+
+  --- TUR 2  (97 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9690
+  >>> EN IYI (dogrulamaya gore)
+  sinav:
+  9.22
+    ab4 (224)    AUC 0.974 | 0.4:  277 sec % 84 isb % 73 yak | 0.5:  210 sec % 83 isb % 54 yak | 0.7:  120 sec % 78 isb % 29 yak |
+    ab384 tur2   AUC 0.965 | 0.4:  435 sec % 66 isb % 89 yak | 0.5:  364 sec % 73 isb % 82 yak | 0.7:  230 sec % 83 isb % 60 yak |
+  9.24
+    ab4 (224)    AUC 0.959 | 0.4:  147 sec % 32 isb % 67 yak | 0.5:  129 sec % 35 isb % 64 yak | 0.7:   94 sec % 39 isb % 53 yak |
+    ab384 tur2   AUC 0.964 | 0.4:  199 sec % 30 isb % 84 yak | 0.5:  161 sec % 34 isb % 77 yak | 0.7:   95 sec % 41 isb % 56 yak |
+
+  --- TUR 3  (99 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9692
+  >>> EN IYI (dogrulamaya gore)
+  sinav:
+  9.22
+    ab4 (224)    AUC 0.974 | 0.4:  277 sec % 84 isb % 73 yak | 0.5:  210 sec % 83 isb % 54 yak | 0.7:  120 sec % 78 isb % 29 yak |
+    ab384 tur3   AUC 0.959 | 0.4:  361 sec % 73 isb % 81 yak | 0.5:  302 sec % 75 isb % 70 yak | 0.7:  167 sec % 81 isb % 42 yak |
+  9.24
+    ab4 (224)    AUC 0.959 | 0.4:  147 sec % 32 isb % 67 yak | 0.5:  129 sec % 35 isb % 64 yak | 0.7:   94 sec % 39 isb % 53 yak |
+    ab384 tur3   AUC 0.957 | 0.4:  179 sec % 31 isb % 79 yak | 0.5:  155 sec % 34 isb % 74 yak | 0.7:   83 sec % 43 isb % 51 yak |
+
+  --- TUR 4  (97 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9677
+  sinav:
+  9.22
+    ab4 (224)    AUC 0.974 | 0.4:  277 sec % 84 isb % 73 yak | 0.5:  210 sec % 83 isb % 54 yak | 0.7:  120 sec % 78 isb % 29 yak |
+    ab384 tur4   AUC 0.962 | 0.4:  367 sec % 72 isb % 82 yak | 0.5:  308 sec % 77 isb % 73 yak | 0.7:  177 sec % 82 isb % 45 yak |
+  9.24
+    ab4 (224)    AUC 0.959 | 0.4:  147 sec % 32 isb % 67 yak | 0.5:  129 sec % 35 isb % 64 yak | 0.7:   94 sec % 39 isb % 53 yak |
+    ab384 tur4   AUC 0.957 | 0.4:  179 sec % 28 isb % 73 yak | 0.5:  145 sec % 32 isb % 66 yak | 0.7:   86 sec % 44 isb % 54 yak |
+
+==========================================================================
+BITTI - en iyi dogrulama AUC 0.9692
+Model: model_ab384/en_iyi_model.pt
+Her tur ayrica: model_ab384/tur1.pt ... tur4.pt
+==========================================================================

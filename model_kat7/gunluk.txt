@@ -1,0 +1,39 @@
+
+==============================================================================
+KATEGORI v7 - kirlenme odakli ince ayar - 2026-10-01 19:34
+==============================================================================
+Yeni tanimli kirlenme (klasorun): 218
+Altin gun odak kararlari: hava akisi 555, duzensiz cizik 1010, kirlenme 186
+Egitim: 32836
+    anlasan        13342
+    2B             8532
+    dogrulanmis    7092
+    inceleme       1788
+    altin_odak     1634
+    op_ozel        247
+    yeni_kirlenme  201
+
+Sinav (9.25 geri kalani): 1399 gorsel
+  referans hesaplaniyor...
+  SU AN (m3+kat5)      genel %93.5 | siyah nok  95/100| siyah ken  99/99 | duzensiz   74/94 | baski kay  99/96 | hava akis  93/85 | kirik gri  88/56 | kirlenme 100/34 |
+                       A klasoru 250, isabet %96, A yakalama %98
+
+==============================================================================
+INCE AYAR (2 tur)
+==============================================================================
+
+  --- TUR 1  (66 dk) ---
+  SU AN (m3+kat5)      genel %93.5 | siyah nok  95/100| siyah ken  99/99 | duzensiz   74/94 | baski kay  99/96 | hava akis  93/85 | kirik gri  88/56 | kirlenme 100/34 |
+                       A klasoru 250, isabet %96, A yakalama %98
+  m3+kat7 tur1         genel %91.1 | siyah nok  96/99 | siyah ken  98/93 | duzensiz   70/93 | baski kay  99/95 | hava akis  80/88 | kirik gri  84/41 | kirlenme  88/32 |
+                       A klasoru 228, isabet %98, A yakalama %91
+
+  --- TUR 2  (68 dk) ---
+  SU AN (m3+kat5)      genel %93.5 | siyah nok  95/100| siyah ken  99/99 | duzensiz   74/94 | baski kay  99/96 | hava akis  93/85 | kirik gri  88/56 | kirlenme 100/34 |
+                       A klasoru 250, isabet %96, A yakalama %98
+  m3+kat7 tur2         genel %91.0 | siyah nok  95/98 | siyah ken  97/94 | duzensiz   70/95 | baski kay  99/95 | hava akis  81/86 | kirik gri  83/38 | kirlenme  90/41 |
+                       A klasoru 226, isabet %97, A yakalama %89
+
+==============================================================================
+BITTI - her tur: model_kat7/tur1.pt, tur2.pt
+==============================================================================

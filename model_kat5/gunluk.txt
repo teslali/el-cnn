@@ -1,0 +1,70 @@
+
+============================================================================
+KATEGORI MODELI v5 (384 px) - 2026-09-26 03:00
+============================================================================
+Inceleme yeni_duzeltmeler        : 1521
+Inceleme cift_inceleme_hatalar   : 567
+Siniflar (18):
+      3345  duzensiz cizik
+      1080  bulutlu
+      3132  baski kaymasi
+      4165  A sinifi
+      1425  ayirma cizik
+       601  nokta baskisi
+       199  baski plakasi
+       888  vakum kalemi
+       462  temas kirl.
+      1332  kirik grid
+      2348  hava akisi
+       267  rulo izi
+      1525  kirlenme
+      1002  grafit tekne
+       995  tekne cercevesi
+       792  gizli catlak
+      6566  siyah nokta
+      3866  siyah kenar
+Egitim 30731   Dogrulama (9.21) 3259
+    anlasan      12635
+    2B           9103
+    dogrulanmis  7092
+    inceleme     1662
+    op_ozel      239
+Sinav: altin kumede 1726 B hucresi
+  (her kategori icin isabet/yakalama yuzdesi)
+  referanslar hesaplaniyor (model3 224 px, kat4 384 px)...
+  model3               genel %87.6 | siyah nok  96/98 | siyah ken  92/68 | duzensiz   50/92 | baski kay  99/74 | hava akis  89/74 | kirik gri 100/20 | kirlenme 100/69 |
+  SU AN (m3+kat4)      genel %88.3 | siyah nok  96/96 | siyah ken  83/71 | duzensiz   63/88 | baski kay  96/85 | hava akis  75/81 | kirik gri  91/40 | kirlenme  81/72 |
+Baslangic: model_kat4 govdesi, yeni siniflandirma basi
+
+============================================================================
+EGITIM (3 tur, 384 px)
+============================================================================
+
+  --- TUR 1  (80 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %82.2
+  >>> EN IYI (dogrulamaya gore)
+  sinav (altin kume):
+  kat5 tur 1           genel %86.8 | siyah nok  95/93 | siyah ken  70/88 | duzensiz   78/81 | baski kay  94/90 | hava akis  73/61 | kirik gri  75/60 | kirlenme  94/55 |
+  m3+kat5 tur 1        genel %88.3 | siyah nok  96/96 | siyah ken  76/82 | duzensiz   66/86 | baski kay  94/87 | hava akis  84/72 | kirik gri  83/40 | kirlenme 100/59 |
+
+  --- TUR 2  (81 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %84.2
+  >>> EN IYI (dogrulamaya gore)
+  sinav (altin kume):
+  kat5 tur 2           genel %87.0 | siyah nok  96/92 | siyah ken  77/79 | duzensiz   82/82 | baski kay  90/91 | hava akis  63/79 | kirik gri  92/48 | kirlenme  66/79 |
+  m3+kat5 tur 2        genel %88.8 | siyah nok  96/96 | siyah ken  88/74 | duzensiz   67/86 | baski kay  94/89 | hava akis  74/80 | kirik gri  91/40 | kirlenme  80/83 |
+
+  --- TUR 3  (93 dk) ---
+  dogrulama:
+  DOGRULAMA dogruluk %88.1
+  >>> EN IYI (dogrulamaya gore)
+  sinav (altin kume):
+  kat5 tur 3           genel %86.8 | siyah nok  96/92 | siyah ken  78/79 | duzensiz   85/78 | baski kay  92/89 | hava akis  61/82 | kirik gri  54/56 | kirlenme  74/79 |
+  m3+kat5 tur 3        genel %89.3 | siyah nok  96/96 | siyah ken  88/76 | duzensiz   69/84 | baski kay  94/87 | hava akis  68/81 | kirik gri  85/44 | kirlenme  92/83 |
+
+============================================================================
+BITTI - en iyi dogrulama %88.1
+Model: model_kat5/en_iyi_model.pt
+============================================================================

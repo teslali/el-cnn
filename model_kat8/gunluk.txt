@@ -1,0 +1,52 @@
+
+==============================================================================
+KATEGORI v8 - yeni cizik tanimlari - 2026-10-06 13:02
+==============================================================================
+Yeni tip ornekleri: 645 (egitim 484, sinav 161)
+Altin gun sinir kararlari: hava akisi 694, baski kaymasi 839, kirik grid 306, duzensiz cizik 1285, kirlenme 244
+Egitim: 37665
+    anlasan        16111
+    2B             8536
+    dogrulanmis    7092
+    altin_odak     2863
+    inceleme       2214
+    yeni_tip       342
+    op_ozel        289
+    yeni_kirlenme  218
+
+Sinav 9.25 geri kalani: 1152 B hucresi - referans hesaplaniyor
+
+Sinav 10.01 (M): 1312 B hucresi - referans hesaplaniyor
+
+Sinav yeni tipler: 161 gorsel - referans hesaplaniyor
+  [9.25 geri kalani]
+  SU AN                genel %94.3 | duzensiz   86/90 | kirik gri  88/56 | baski kay  99/96 | kirlenme  74/82 | hava akis  95/84 |
+  [10.01 (M)]
+  SU AN                genel %95.0 | duzensiz   90/92 | kirik gri  69/85 | baski kay 100/93 | kirlenme  98/90 | hava akis  95/97 |
+  [yeni tipler] cizik olarak yakalanan: SU AN %6
+
+==============================================================================
+INCE AYAR (2 tur)
+==============================================================================
+
+  --- TUR 1  (66 dk) ---
+  [9.25 geri kalani]
+  SU AN                genel %94.3 | duzensiz   86/90 | kirik gri  88/56 | baski kay  99/96 | kirlenme  74/82 | hava akis  95/84 |
+  kat8 t1 kural        genel %94.0 | duzensiz   88/88 | kirik gri  81/54 | baski kay  99/96 | kirlenme  74/84 | hava akis  90/85 |
+  [10.01 (M)]
+  SU AN                genel %95.0 | duzensiz   90/92 | kirik gri  69/85 | baski kay 100/93 | kirlenme  98/90 | hava akis  95/97 |
+  kat8 t1 kural        genel %94.9 | duzensiz   92/90 | kirik gri  66/81 | baski kay  99/94 | kirlenme  97/89 | hava akis  94/97 |
+  [yeni tipler] cizik olarak yakalanan: SU AN %6 | kat8 t1 kural %60
+
+  --- TUR 2  (64 dk) ---
+  [9.25 geri kalani]
+  SU AN                genel %94.3 | duzensiz   86/90 | kirik gri  88/56 | baski kay  99/96 | kirlenme  74/82 | hava akis  95/84 |
+  kat8 t2 kural        genel %94.1 | duzensiz   87/90 | kirik gri  87/51 | baski kay  99/97 | kirlenme  70/84 | hava akis  94/84 |
+  [10.01 (M)]
+  SU AN                genel %95.0 | duzensiz   90/92 | kirik gri  69/85 | baski kay 100/93 | kirlenme  98/90 | hava akis  95/97 |
+  kat8 t2 kural        genel %94.8 | duzensiz   91/92 | kirik gri  69/77 | baski kay  99/94 | kirlenme  90/92 | hava akis  96/96 |
+  [yeni tipler] cizik olarak yakalanan: SU AN %6 | kat8 t2 kural %66
+
+==============================================================================
+BITTI - her tur: model_kat8/tur1.pt, tur2.pt
+==============================================================================

@@ -1,0 +1,92 @@
+
+========================================================================
+A/B SIDDET MODELI - 2026-09-13 18:25
+========================================================================
+A sinifi klasoru : zz其他Diger
+B sinifi klasoru : f黑斑Siyah leke + siyah nokta
+B sinifi klasoru : k黑边Siyah kenar + siyah kose
+
+Gun bazli bolme:
+  egitim    :  14730  (A 2747, B 11983)
+  dogrulama :   7220  (A 540, B 6680)
+  test      :   9118  (A 913, B 8205)
+
+Sinif agirliklari: A 2.68, B 0.61
+
+========================================================================
+EGITIM BASLIYOR (6 tur)
+========================================================================
+
+
+
+  --- TUR 1  (42 dk) ---
+  DOGRULAMA: dogruluk %94.1  makro-F1 0.800
+    A sinifi : P 0.595  R 0.672  n 540
+    B sinifi : P 0.973  R 0.963  n 6680
+  >>> EN IYI
+    TEST: dogruluk %92.4  makro-F1 0.747
+      A : P 0.685  R 0.439  n 913
+      B : P 0.940  R 0.978  n 8205
+
+      A esigi analizi (A dedigimizde ne kadar hakliyiz):
+        esik   A_karar   dogru   precision
+        0.50       585     401       0.685
+        0.60       435     327       0.752
+        0.70       313     249       0.796
+        0.80       213     188       0.883
+        0.90       113     111       0.982
+        0.95        56      56       1.000
+
+
+  --- TUR 2  (41 dk) ---
+  DOGRULAMA: dogruluk %95.2  makro-F1 0.828
+    A sinifi : P 0.675  R 0.689  n 540
+    B sinifi : P 0.975  R 0.973  n 6680
+  >>> EN IYI
+    TEST: dogruluk %92.7  makro-F1 0.766
+      A : P 0.699  R 0.483  n 913
+      B : P 0.944  R 0.977  n 8205
+
+      A esigi analizi (A dedigimizde ne kadar hakliyiz):
+        esik   A_karar   dogru   precision
+        0.50       631     441       0.699
+        0.60       492     363       0.738
+        0.70       396     315       0.795
+        0.80       279     229       0.821
+        0.90       144     129       0.896
+        0.95        64      59       0.922
+
+
+  --- TUR 3  (42 dk) ---
+  DOGRULAMA: dogruluk %91.9  makro-F1 0.786
+    A sinifi : P 0.476  R 0.880  n 540
+    B sinifi : P 0.990  R 0.922  n 6680
+  (en iyi hala 0.828)
+
+
+  --- TUR 4  (41 dk) ---
+  DOGRULAMA: dogruluk %93.7  makro-F1 0.816
+    A sinifi : P 0.554  R 0.835  n 540
+    B sinifi : P 0.986  R 0.946  n 6680
+  (en iyi hala 0.828)
+
+
+  --- TUR 5  (40 dk) ---
+  DOGRULAMA: dogruluk %93.7  makro-F1 0.815
+    A sinifi : P 0.550  R 0.839  n 540
+    B sinifi : P 0.986  R 0.945  n 6680
+  (en iyi hala 0.828)
+
+
+  --- TUR 6  (41 dk) ---
+  DOGRULAMA: dogruluk %93.9  makro-F1 0.819
+    A sinifi : P 0.563  R 0.831  n 540
+    B sinifi : P 0.986  R 0.948  n 6680
+  (en iyi hala 0.828)
+
+========================================================================
+BITTI - en iyi dogrulama F1 0.828
+Model: model_ab/en_iyi_model.pt
+
+Simdi:  python ab_model.py uygula <otomasyon_cikti_klasoru>
+========================================================================

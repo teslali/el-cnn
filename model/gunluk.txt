@@ -1,0 +1,173 @@
+
+========================================================================
+INCE AYAR - 2026-09-10 12:17
+========================================================================
+Toplam gorsel : 15895
+Kategori      : 9  (>= 300 ornek)
+Egitim        : 11675
+Test          : 4220
+Girdi         : 224x224, batch 24
+
+Kategoriler:
+  吸笔Vakum kalemi izi               egitim   282  test    19
+  偏移Baski kaymasi                  egitim   192  test   283
+  黑斑Siyah leke + siyah nokta       egitim  4538  test  2948
+  卡点Nokta Baskisi                  egitim   288  test    78
+  黑边Siyah kenar + siyah kose       egitim  1733  test   391
+  舟框印Tekne cercevesi izi           egitim   356  test     5
+  气流Hava akisi izi                 egitim   659  test   170
+  不规则 Düzensiz cizik              egitim  1309  test   151
+  z其他Diger                         egitim  2318  test   175
+
+========================================================================
+EGITIM BASLIYOR
+========================================================================
+Her tur sonunda test olculur ve en iyi model kaydedilir.
+Kesilirse ayni komutla kaldigi yerden devam eder.
+
+
+
+  --- TUR 1/8  (33 dk) ---
+  egitim kaybi : 0.7402
+  test dogruluk: 81.8%
+  makro-P      : 0.591
+  makro-F1     : 0.542
+    吸笔Vakum kalemi izi             P 0.10  R 0.74  n 19
+    偏移Baski kaymasi                P 0.47  R 0.05  n 283
+    黑斑Siyah leke + siyah nokta     P 0.93  R 0.92  n 2948
+    卡点Nokta Baskisi                P 0.50  R 0.01  n 78
+    黑边Siyah kenar + siyah kose     P 0.65  R 0.81  n 391
+    舟框印Tekne cercevesi izi         P 0.83  R 1.00  n 5
+    气流Hava akisi izi               P 0.61  R 0.62  n 170
+    不规则 Düzensiz cizik            P 0.50  R 0.84  n 151
+    z其他Diger                       P 0.74  R 0.86  n 175
+  >>> EN IYI (makro-F1 0.542) kaydedildi
+
+
+  --- TUR 2/8  (34 dk) ---
+  egitim kaybi : 0.5126
+  test dogruluk: 83.2%
+  makro-P      : 0.567
+  makro-F1     : 0.565
+    吸笔Vakum kalemi izi             P 0.02  R 0.05  n 19
+    偏移Baski kaymasi                P 0.53  R 0.58  n 283
+    黑斑Siyah leke + siyah nokta     P 0.94  R 0.92  n 2948
+    卡点Nokta Baskisi                P 0.17  R 0.12  n 78
+    黑边Siyah kenar + siyah kose     P 0.75  R 0.75  n 391
+    舟框印Tekne cercevesi izi         P 0.67  R 0.80  n 5
+    气流Hava akisi izi               P 0.77  R 0.45  n 170
+    不规则 Düzensiz cizik            P 0.50  R 0.91  n 151
+    z其他Diger                       P 0.76  R 0.73  n 175
+  >>> EN IYI (makro-F1 0.565) kaydedildi
+
+
+  --- TUR 3/8  (33 dk) ---
+  egitim kaybi : 0.4557
+  test dogruluk: 84.2%
+  makro-P      : 0.676
+  makro-F1     : 0.589
+    吸笔Vakum kalemi izi             P 0.13  R 0.74  n 19
+    偏移Baski kaymasi                P 0.67  R 0.17  n 283
+    黑斑Siyah leke + siyah nokta     P 0.89  R 0.97  n 2948
+    卡点Nokta Baskisi                P 0.60  R 0.08  n 78
+    黑边Siyah kenar + siyah kose     P 0.83  R 0.62  n 391
+    舟框印Tekne cercevesi izi         P 0.80  R 0.80  n 5
+    气流Hava akisi izi               P 0.71  R 0.75  n 170
+    不规则 Düzensiz cizik            P 0.75  R 0.82  n 151
+    z其他Diger                       P 0.71  R 0.74  n 175
+  >>> EN IYI (makro-F1 0.589) kaydedildi
+
+
+  --- TUR 4/8  (33 dk) ---
+  egitim kaybi : 0.4317
+  test dogruluk: 85.8%
+  makro-P      : 0.714
+  makro-F1     : 0.622
+    吸笔Vakum kalemi izi             P 0.22  R 0.26  n 19
+    偏移Baski kaymasi                P 0.89  R 0.39  n 283
+    黑斑Siyah leke + siyah nokta     P 0.89  R 0.97  n 2948
+    卡点Nokta Baskisi                P 0.42  R 0.13  n 78
+    黑边Siyah kenar + siyah kose     P 0.76  R 0.73  n 391
+    舟框印Tekne cercevesi izi         P 1.00  R 0.60  n 5
+    气流Hava akisi izi               P 0.72  R 0.63  n 170
+    不规则 Düzensiz cizik            P 0.77  R 0.77  n 151
+    z其他Diger                       P 0.76  R 0.75  n 175
+  >>> EN IYI (makro-F1 0.622) kaydedildi
+
+
+  --- TUR 5/8  (33 dk) ---
+  egitim kaybi : 0.3868
+  test dogruluk: 86.1%
+  makro-P      : 0.686
+  makro-F1     : 0.643
+    吸笔Vakum kalemi izi             P 0.35  R 0.79  n 19
+    偏移Baski kaymasi                P 0.74  R 0.69  n 283
+    黑斑Siyah leke + siyah nokta     P 0.94  R 0.94  n 2948
+    卡点Nokta Baskisi                P 0.29  R 0.36  n 78
+    黑边Siyah kenar + siyah kose     P 0.82  R 0.73  n 391
+    舟框印Tekne cercevesi izi         P 1.00  R 0.40  n 5
+    气流Hava akisi izi               P 0.68  R 0.52  n 170
+    不规则 Düzensiz cizik            P 0.57  R 0.80  n 151
+    z其他Diger                       P 0.80  R 0.69  n 175
+  >>> EN IYI (makro-F1 0.643) kaydedildi
+
+
+  --- TUR 6/8  (33 dk) ---
+  egitim kaybi : 0.3799
+  test dogruluk: 85.2%
+  makro-P      : 0.681
+  makro-F1     : 0.589
+    吸笔Vakum kalemi izi             P 0.20  R 0.58  n 19
+    偏移Baski kaymasi                P 0.70  R 0.45  n 283
+    黑斑Siyah leke + siyah nokta     P 0.92  R 0.95  n 2948
+    卡点Nokta Baskisi                P 0.73  R 0.10  n 78
+    黑边Siyah kenar + siyah kose     P 0.69  R 0.80  n 391
+    舟框印Tekne cercevesi izi         P 0.67  R 0.40  n 5
+    气流Hava akisi izi               P 0.63  R 0.76  n 170
+    不规则 Düzensiz cizik            P 0.81  R 0.61  n 151
+    z其他Diger                       P 0.78  R 0.66  n 175
+  (en iyi hala 0.643 - asiri ogrenme olabilir)
+
+
+  --- TUR 7/8  (33 dk) ---
+  egitim kaybi : 0.3446
+  test dogruluk: 85.2%
+  makro-P      : 0.608
+  makro-F1     : 0.621
+    吸笔Vakum kalemi izi             P 0.13  R 0.21  n 19
+    偏移Baski kaymasi                P 0.68  R 0.73  n 283
+    黑斑Siyah leke + siyah nokta     P 0.96  R 0.91  n 2948
+    卡点Nokta Baskisi                P 0.30  R 0.44  n 78
+    黑边Siyah kenar + siyah kose     P 0.70  R 0.81  n 391
+    舟框印Tekne cercevesi izi         P 0.60  R 0.60  n 5
+    气流Hava akisi izi               P 0.73  R 0.49  n 170
+    不规则 Düzensiz cizik            P 0.57  R 0.91  n 151
+    z其他Diger                       P 0.80  R 0.79  n 175
+  (en iyi hala 0.643 - asiri ogrenme olabilir)
+
+
+  --- TUR 8/8  (33 dk) ---
+  egitim kaybi : 0.3332
+  test dogruluk: 84.6%
+  makro-P      : 0.636
+  makro-F1     : 0.609
+    吸笔Vakum kalemi izi             P 0.11  R 0.47  n 19
+    偏移Baski kaymasi                P 0.74  R 0.52  n 283
+    黑斑Siyah leke + siyah nokta     P 0.95  R 0.94  n 2948
+    卡点Nokta Baskisi                P 0.21  R 0.37  n 78
+    黑边Siyah kenar + siyah kose     P 0.69  R 0.86  n 391
+    舟框印Tekne cercevesi izi         P 0.80  R 0.80  n 5
+    气流Hava akisi izi               P 0.62  R 0.36  n 170
+    不规则 Düzensiz cizik            P 0.73  R 0.84  n 151
+    z其他Diger                       P 0.89  R 0.57  n 175
+  (en iyi hala 0.643 - asiri ogrenme olabilir)
+
+========================================================================
+BITTI
+========================================================================
+En iyi makro-F1 : 0.643
+En iyi model    : model/en_iyi_model.pt
+Tahminler       : model/tahminler.csv
+
+Karsilastirma icin: dondurulmus oznitelikle makro-F1 0.417 idi.
+Esik analizi icin tahminler.csv kullanilabilir.

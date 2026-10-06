@@ -1,0 +1,77 @@
+
+============================================================================
+C DEDEKTORU v2 (512 px) - 2026-09-27 01:40
+============================================================================
+Egitim  : C   765  degil  9377
+Dogrulama (9.21): C 228  degil 1572
+    2B           C      271
+    anlasan      degil  6425
+    dogrulanmis  C      108
+    dogrulanmis  degil  1500
+    inceleme     C      210
+    inceleme     degil  1452
+    operator     C      176
+
+Sinav: her gunde tum gercek C'ler + 500 rastgele C-olmayan hucre
+  (yanlis alarm ve cizik sayilari tum kumeye olceklenmis tahmin)
+  9.22  (93 C)
+    v1          | 0.2: C  92/93  yanlis ~ 242 (cizik ~ 63) | 0.3: C  92/93  yanlis ~  43 (cizik ~ 39) | 0.4: C  91/93  yanlis ~  39 (cizik ~ 39) | 0.5: C  90/93  yanlis ~  31 (cizik ~ 31) |
+  9.24  (127 C)
+    v1          | 0.2: C 123/127 yanlis ~ 146 (cizik ~ 35) | 0.3: C 123/127 yanlis ~  55 (cizik ~ 31) | 0.4: C 120/127 yanlis ~  27 (cizik ~ 19) | 0.5: C 117/127 yanlis ~  15 (cizik ~ 15) |
+  9.23  (146 C)
+    v1          | 0.2: C 146/146 yanlis ~ 110 (cizik ~ 51) | 0.3: C 145/146 yanlis ~  51 (cizik ~ 43) | 0.4: C 142/146 yanlis ~  31 (cizik ~ 31) | 0.5: C 136/146 yanlis ~  19 (cizik ~ 19) |
+
+Baslangic: v1 (model_c), yeni veriyle ince ayar
+
+============================================================================
+EGITIM (3 tur, 512 px)
+============================================================================
+
+  --- TUR 1  (95 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9941
+  >>> EN IYI (dogrulamaya gore)
+  sinav:
+  9.22  (93 C)
+    v1          | 0.2: C  92/93  yanlis ~ 242 (cizik ~ 63) | 0.3: C  92/93  yanlis ~  43 (cizik ~ 39) | 0.4: C  91/93  yanlis ~  39 (cizik ~ 39) | 0.5: C  90/93  yanlis ~  31 (cizik ~ 31) |
+    v2 tur1     | 0.2: C  92/93  yanlis ~  27 (cizik ~ 27) | 0.3: C  90/93  yanlis ~  23 (cizik ~ 23) | 0.4: C  90/93  yanlis ~  23 (cizik ~ 23) | 0.5: C  89/93  yanlis ~  23 (cizik ~ 23) |
+  9.24  (127 C)
+    v1          | 0.2: C 123/127 yanlis ~ 146 (cizik ~ 35) | 0.3: C 123/127 yanlis ~  55 (cizik ~ 31) | 0.4: C 120/127 yanlis ~  27 (cizik ~ 19) | 0.5: C 117/127 yanlis ~  15 (cizik ~ 15) |
+    v2 tur1     | 0.2: C 122/127 yanlis ~  19 (cizik ~ 19) | 0.3: C 120/127 yanlis ~  11 (cizik ~ 11) | 0.4: C 118/127 yanlis ~  11 (cizik ~ 11) | 0.5: C 117/127 yanlis ~  11 (cizik ~ 11) |
+  9.23  (146 C)
+    v1          | 0.2: C 146/146 yanlis ~ 110 (cizik ~ 51) | 0.3: C 145/146 yanlis ~  51 (cizik ~ 43) | 0.4: C 142/146 yanlis ~  31 (cizik ~ 31) | 0.5: C 136/146 yanlis ~  19 (cizik ~ 19) |
+    v2 tur1     | 0.2: C 144/146 yanlis ~  23 (cizik ~ 23) | 0.3: C 143/146 yanlis ~  15 (cizik ~ 15) | 0.4: C 140/146 yanlis ~  11 (cizik ~ 11) | 0.5: C 140/146 yanlis ~  11 (cizik ~ 11) |
+
+  --- TUR 2  (95 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9921
+  sinav:
+  9.22  (93 C)
+    v1          | 0.2: C  92/93  yanlis ~ 242 (cizik ~ 63) | 0.3: C  92/93  yanlis ~  43 (cizik ~ 39) | 0.4: C  91/93  yanlis ~  39 (cizik ~ 39) | 0.5: C  90/93  yanlis ~  31 (cizik ~ 31) |
+    v2 tur2     | 0.2: C  92/93  yanlis ~  27 (cizik ~ 27) | 0.3: C  92/93  yanlis ~  27 (cizik ~ 27) | 0.4: C  91/93  yanlis ~  23 (cizik ~ 23) | 0.5: C  91/93  yanlis ~  23 (cizik ~ 23) |
+  9.24  (127 C)
+    v1          | 0.2: C 123/127 yanlis ~ 146 (cizik ~ 35) | 0.3: C 123/127 yanlis ~  55 (cizik ~ 31) | 0.4: C 120/127 yanlis ~  27 (cizik ~ 19) | 0.5: C 117/127 yanlis ~  15 (cizik ~ 15) |
+    v2 tur2     | 0.2: C 123/127 yanlis ~   7 (cizik ~  7) | 0.3: C 121/127 yanlis ~   7 (cizik ~  7) | 0.4: C 119/127 yanlis ~   7 (cizik ~  7) | 0.5: C 118/127 yanlis ~   3 (cizik ~  3) |
+  9.23  (146 C)
+    v1          | 0.2: C 146/146 yanlis ~ 110 (cizik ~ 51) | 0.3: C 145/146 yanlis ~  51 (cizik ~ 43) | 0.4: C 142/146 yanlis ~  31 (cizik ~ 31) | 0.5: C 136/146 yanlis ~  19 (cizik ~ 19) |
+    v2 tur2     | 0.2: C 143/146 yanlis ~  23 (cizik ~ 15) | 0.3: C 141/146 yanlis ~   3 (cizik ~  3) | 0.4: C 139/146 yanlis ~   0 (cizik ~  0) | 0.5: C 137/146 yanlis ~   0 (cizik ~  0) |
+
+  --- TUR 3  (95 dk) ---
+  dogrulama (9.21):
+  DOGRULAMA AUC 0.9921
+  sinav:
+  9.22  (93 C)
+    v1          | 0.2: C  92/93  yanlis ~ 242 (cizik ~ 63) | 0.3: C  92/93  yanlis ~  43 (cizik ~ 39) | 0.4: C  91/93  yanlis ~  39 (cizik ~ 39) | 0.5: C  90/93  yanlis ~  31 (cizik ~ 31) |
+    v2 tur3     | 0.2: C  92/93  yanlis ~  27 (cizik ~ 27) | 0.3: C  92/93  yanlis ~  23 (cizik ~ 23) | 0.4: C  91/93  yanlis ~  23 (cizik ~ 23) | 0.5: C  91/93  yanlis ~  23 (cizik ~ 23) |
+  9.24  (127 C)
+    v1          | 0.2: C 123/127 yanlis ~ 146 (cizik ~ 35) | 0.3: C 123/127 yanlis ~  55 (cizik ~ 31) | 0.4: C 120/127 yanlis ~  27 (cizik ~ 19) | 0.5: C 117/127 yanlis ~  15 (cizik ~ 15) |
+    v2 tur3     | 0.2: C 122/127 yanlis ~   7 (cizik ~  7) | 0.3: C 120/127 yanlis ~   3 (cizik ~  3) | 0.4: C 118/127 yanlis ~   3 (cizik ~  3) | 0.5: C 117/127 yanlis ~   0 (cizik ~  0) |
+  9.23  (146 C)
+    v1          | 0.2: C 146/146 yanlis ~ 110 (cizik ~ 51) | 0.3: C 145/146 yanlis ~  51 (cizik ~ 43) | 0.4: C 142/146 yanlis ~  31 (cizik ~ 31) | 0.5: C 136/146 yanlis ~  19 (cizik ~ 19) |
+    v2 tur3     | 0.2: C 143/146 yanlis ~  11 (cizik ~ 11) | 0.3: C 140/146 yanlis ~   0 (cizik ~  0) | 0.4: C 138/146 yanlis ~   0 (cizik ~  0) | 0.5: C 137/146 yanlis ~   0 (cizik ~  0) |
+
+============================================================================
+BITTI - en iyi dogrulama AUC 0.9941
+Model: model_c2/en_iyi_model.pt
+Her tur ayrica: model_c2/tur1.pt ... tur3.pt
+============================================================================
